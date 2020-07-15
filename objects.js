@@ -13,3 +13,11 @@ function updatePlaylist(obj, artist, song) {
 
   // return updatedPlaylist;
 }
+
+
+function removeFromPlaylist(obj, artist) {
+  //delete keu value pair
+  delete obj.artist;
+
+  //return updated playlist obj
+}
