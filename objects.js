@@ -19,5 +19,7 @@ function removeFromPlaylist(obj, artist) {
   //delete keu value pair
   delete obj.artist;
 
+  return obj;
+
   //return updated playlist obj
 }
