@@ -10,6 +10,6 @@ function updatePlaylist(obj, artist, song) {
   }
 
   Object.assign(obj, {artist: song});
-  
+
   return updatedPlaylist;
 }
