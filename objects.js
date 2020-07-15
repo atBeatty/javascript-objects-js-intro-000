@@ -4,10 +4,12 @@ var playlist = {
 
 function updatePlaylist(obj, artist, song) {
   //add the song and artist as key value
+  var newKeyPair = {};
+  newKeyPair[artist] = song;
   //return whole playlist
 
 
-  return Object.assign({}, obj, {[artist]: song});
+  return Object.assign(obj, newKeyPair);
 
   // return updatedPlaylist;
 }
