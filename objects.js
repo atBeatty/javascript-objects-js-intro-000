@@ -9,7 +9,7 @@ function updatePlaylist(obj, artist, song) {
     artist: song
   }
 
-  Object.assign(obj, updatedPlaylist);
+  Object.assign(obj, {artist: song});
   
   return updatedPlaylist;
 }
